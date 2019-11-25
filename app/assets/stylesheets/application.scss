@@ -1,2 +1,83 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+//Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199px)
+{
+  section
+  {
+    background-image: url(/travel.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-size: 100% ;
+  }
+}
+ //Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) and (max-width: 767px)
+{
+  section
+  {
+    background-image: url(/travel.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-size: 100% ;
+  }
+}
+
+@media (max-width: 575px)
+{
+  section
+  {
+    background-image: url(/travel.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+      background-size: 100% ;
+  }
+}
+
+@media (max-width: 475px)
+{
+  section
+  {
+    background-image: url(/travel.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-size: 100% ;
+  }
+}
+
+.banner-text {
+    max-width: 1200px;
+    color: white;
+    z-index: 99999999;
+}
+#banner {
+    position: relative;
+    text-align: center;
+    background-size: cover;
+    width: 100%;
+    min-height: 85vh;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    z-index: 199;
+}
+.dimmer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background-color: rgba( 16, 15, 15, 0.35);
+    z-index: 1;
+}
+h2.description-header
+{
+    margin-top: 10px;
+    font-size: 30px;
+}
