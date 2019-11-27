@@ -1,12 +1,30 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+.navbar-default {
+    background-color: #FFF;
+    border-color: #FFF;
+}
+.btn btn-danger btn-rounded.btn-lg
+{
+    padding-top: 65px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    margin-top: 10px;
+}
+.navbar-default .navbar-brand
+{
+    color: red;
+    margin-top: 15px;
+    font-size: 30px;
+}
 //Large devices (desktops, 992px and up)
 @media (min-width: 992px) and (max-width: 1199px)
 {
   section
   {
-    background-image: url(/travel.jpg);
+    background-image: url(/travel_trip.jpg);
     width: 100%;
     background-size: cover;
     background-repeat:no-repeat;
@@ -18,7 +36,7 @@
 {
   section
   {
-    background-image: url(/travel.jpg);
+    background-image: url(/travel_trip.jpg);
     width: 100%;
     background-size: cover;
     background-repeat:no-repeat;
@@ -30,7 +48,7 @@
 {
   section
   {
-    background-image: url(/travel.jpg);
+    background-image: url(/travel_trip.jpg);
     width: 100%;
     background-size: cover;
     background-repeat:no-repeat;
@@ -42,7 +60,7 @@
 {
   section
   {
-    background-image: url(/travel.jpg);
+    background-image: url(/travel_trip.jpg);
     width: 100%;
     background-size: cover;
     background-repeat:no-repeat;
@@ -60,12 +78,12 @@
     text-align: center;
     background-size: cover;
     width: 100%;
-    min-height: 85vh;
+    min-height: 65vh;
     display: inline-flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px;
+    padding: 0px;
     z-index: 199;
 }
 .dimmer {
