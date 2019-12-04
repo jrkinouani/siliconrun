@@ -10,7 +10,7 @@
     padding-top: 65px;
 }
 .navbar-default .navbar-nav > li > a {
-    color: white;
+    color: red;
     margin-top: 10px;
 }
 .navbar-default .navbar-brand
@@ -98,4 +98,12 @@ h2.description-header
 {
     margin-top: 10px;
     font-size: 30px;
+}
+.btn.btn-danger.btn-rounded.btn-lg
+{
+    color: #FFF;
+}
+.link_nav_text
+{
+    font-size: 23px;
 }
